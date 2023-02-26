@@ -102,16 +102,17 @@
 
 
 .ex-6-img:hover {
-    animation-name: Greyscale;
-    animation-duration: 5s;
+    filter: grayscale(1);
+    /* animation-name: Greyscale; */
+    /* animation-duration: 1s; */
 }
 
-@keyframes Greyscale {
+/* @keyframes Greyscale {
     from {filter: grayscale(0);}
     to {filter: grayscale(1);}
-}
+} */
 
-
+/* ------------------------------- */
 
 
 
