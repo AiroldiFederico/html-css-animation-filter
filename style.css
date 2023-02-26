@@ -50,6 +50,21 @@
     height: 100px;
     background: red;
 }
+
+.ex-4-square:hover {
+    animation-name: toFade;
+    animation-duration: 5s;
+}
+
+@keyframes toFade {
+    from {background-color:rgba(255, 0, 0, 1);}
+    to {background-color:rgba(255, 0, 0, 0);}
+}
+
+
+/* ------------------------------- */
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
