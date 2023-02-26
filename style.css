@@ -71,6 +71,31 @@
     height: 60px;
     background: red;
 }
+
+.ex-5-square:hover {
+    animation-name: Enlarge;
+    animation-duration: 5s;
+}
+
+.ex-5-square:active {
+    animation-name: Reduce;
+    animation-duration: 5s;
+}
+
+@keyframes Enlarge {
+    from {transform: scale(1);}
+    to {transform: scale(2);}
+}
+
+@keyframes Reduce {
+    from {transform: scale(1);}
+    to {transform: scale(0.5);}
+}
+
+
+
+/* ------------------------------ */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
