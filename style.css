@@ -219,7 +219,7 @@ to {transform: rotate(360deg);}
     text-align: center;
     text-decoration: none;
 }
-.ex-12-button:hover .ex-12-top-white, .ex-13-top-white {
+.ex-12-button:hover .ex-12-top-white {
     position: absolute;
     top: -10px;
     left: 10%;
@@ -229,11 +229,12 @@ to {transform: rotate(360deg);}
 
 
     animation-name: ex12-left ;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: 10;
     animation-direction: alternate-reverse; 
+    animation-timing-function: linear;
 }
-.ex-12-button:hover .ex-12-bottom-white, .ex-13-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
     position: absolute;
     bottom: -10px;
     right: 20%;
@@ -242,11 +243,11 @@ to {transform: rotate(360deg);}
     height: 20px;
 
     animation-name: ex12-right ;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: 10;
     animation-direction: alternate-reverse; 
+    animation-timing-function: linear;
 }
-
 
 
 @keyframes ex12-left {
@@ -260,6 +261,56 @@ to {transform: rotate(360deg);}
 }
 
 
+
+
+/* -------------------------------------------------------- */
+
+.ex-13-button:hover .ex-13-top-white {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+
+
+    animation-name: ex13-left ;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+     
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+
+    animation-name: ex13-right ;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+    
+}
+
+
+@keyframes ex13-left {
+    0%      {left:-10px; top:-10px}
+    25%     {left:80%; top:-10px}
+    50%     {left:80%; top: 50px}
+    75%     {left:-10px; top: 50px}
+    100%    {left:-10px; top: -10px}
+    }
+
+@keyframes ex13-right {
+    0%      {right:-10px; bottom:-10px}
+    25%     {right:80%; bottom:-10px}
+    50%     {right:80%; bottom: 50px}
+    75%     {right:-10px; bottom: 50px}
+    100%    {right:-10px; bottom: -10px}
+}
 
 
 
