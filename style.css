@@ -219,19 +219,47 @@ to {transform: rotate(360deg);}
     text-align: center;
     text-decoration: none;
 }
-.ex-12-top-white, .ex-13-top-white {
+.ex-12-button:hover .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
     left: 10%;
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+
+
+    animation-name: ex12-left ;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-direction: alternate-reverse; 
 }
-.ex-12-bottom-white, .ex-13-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
     right: 20%;
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+
+    animation-name: ex12-right ;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-direction: alternate-reverse; 
 }
+
+
+
+@keyframes ex12-left {
+    0%      {left:10%;}
+    100%    {left:65%;}
+    }
+
+@keyframes ex12-right {
+    0%      {right:10%;}
+    100%    {right:65%;}
+}
+
+
+
+
+
