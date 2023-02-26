@@ -5,8 +5,8 @@
     transition: background-color 5s;
 }
 
-.ex-1-square {
-    background-color: red;
+.ex-1-square:hover {
+     background-color: red;
 }
 
 /* ----------------------------- */
@@ -136,10 +136,6 @@
    to {filter: grayscale(1) sepia(1);
         border-radius: 35px;}
 } 
-
-
-
-
 
 /* -------------------------------- */
 
