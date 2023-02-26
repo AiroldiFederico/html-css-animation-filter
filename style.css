@@ -31,6 +31,20 @@
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover {
+    animation-name: toCircle;
+    animation-duration: 5s;
+}
+
+@keyframes toCircle {
+    from {border-radius: 0%;}
+    to {border-radius: 100%;}
+}
+
+
+/* ------------------------------ */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
