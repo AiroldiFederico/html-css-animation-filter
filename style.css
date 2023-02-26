@@ -124,6 +124,21 @@
     to {filter: grayscale(1) sepia(1);}
 } 
 
+/* -------------------------------- */
+
+.ex-8-img:hover {
+    animation-name: filters-radius; 
+    animation-duration: 5s;
+}
+
+@keyframes filters-radius {
+   /* from {filter: grayscale(0) sepia(0);}  */ /*non necessario*/
+   to {filter: grayscale(1) sepia(1);
+        border-radius: 35px;}
+} 
+
+
+
 
 
 /* -------------------------------- */
