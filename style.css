@@ -114,7 +114,15 @@
 
 /* ------------------------------- */
 
+.ex-7-img:hover {
+     animation-name: filters; 
+     animation-duration: 5s;
+}
 
+@keyframes filters {
+    /* from {filter: grayscale(0) sepia(0);}  */ /*non necessario*/
+    to {filter: grayscale(1) sepia(1);}
+} 
 
 
 
