@@ -143,6 +143,24 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    animation-name: fil-rad-scale; 
+    animation-duration: 5s;
+}
+
+@keyframes fil-rad-scale {
+   /* from {filter: grayscale(0) sepia(0);}  */ /*non necessario*/
+   to {
+    filter: grayscale(1) sepia(1);
+    border-radius: 35px;
+    width: 600px;
+    margin: 0px 0px;
+    }
+} 
+
+
+/* ---------------------------------- */
 .ex-10-icon {
     font-size: 60px;
 }
