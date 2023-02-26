@@ -100,6 +100,25 @@
     width: 500px;
 }
 
+
+.ex-6-img:hover {
+    animation-name: Greyscale;
+    animation-duration: 5s;
+}
+
+@keyframes Greyscale {
+    from {filter: grayscale(0);}
+    to {filter: grayscale(1);}
+}
+
+
+
+
+
+
+
+/* -------------------------------- */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
